@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!--
+  ================================================================
+  CURRÍCULO ONLINE / PORTFÓLIO — ISAQUE BARBOSA
+  Esta é a página em inglês (secundária). A versão irmã está em: index.html (pasta principal)
+
+  COMO EDITAR (sem precisar de programação avançada):
+   • Textos: procure o texto aqui no HTML e troque direto.
+   • Nova experiência, projeto ou meta: copie um bloco inteiro
+     (um <li> ou <article>) e cole logo abaixo do original.
+   • Cores, fontes e espaçamentos: arquivo css/site.css (variáveis no topo).
+   • Fotos: pasta img/. Se trocar uma foto, mantenha o mesmo nome do arquivo.
+   • Ao mudar um texto, lembre de mudar também na página do outro idioma.
+   • Ordem da página: topo, três pilares, esporte, experiência,
+     formação, habilidades, projetos, metas e contato.
+  ================================================================
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Isaque Barbosa | Technology, Business &amp; Sports</title>
+  <!-- SEO: título e descrição que aparecem no Google -->
+  <meta name="description" content="Isaque Barbosa: systems analyst, business administration student and college soccer captain. Technology, business and sports.">
+  <meta name="theme-color" content="#fbfbfd">
+  <!-- Idiomas: avisa o Google qual é a página em cada idioma -->
+  <link rel="canonical" href="https://preeminent-beignet-466def.netlify.app/en/">
+  <link rel="alternate" hreflang="pt-BR" href="https://preeminent-beignet-466def.netlify.app/">
+  <link rel="alternate" hreflang="en" href="https://preeminent-beignet-466def.netlify.app/en/">
+  <link rel="alternate" hreflang="x-default" href="https://preeminent-beignet-466def.netlify.app/">
+  <!-- Pré-visualização ao compartilhar o link (LinkedIn, WhatsApp...) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Isaque Barbosa | Technology, Business &amp; Sports">
+  <meta property="og:description" content="Isaque Barbosa: systems analyst, business administration student and college soccer captain. Technology, business and sports.">
+  <meta property="og:url" content="https://preeminent-beignet-466def.netlify.app/en/">
+  <meta property="og:image" content="https://preeminent-beignet-466def.netlify.app/img/og.jpg">
+  <meta property="og:locale" content="en_US">
+  <!-- Fonte Inter (Google Fonts) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Todo o visual do site está neste arquivo CSS -->
+  <link rel="stylesheet" href="../css/site.css">
+  <!-- Marca a página como "com JavaScript": as animações de entrada só são escondidas se o JS funcionar -->
+  <script>document.documentElement.className+=' js'</script>
+  <!-- Menu do celular e animações ao rolar a página -->
+  <script src="../js/site.js" defer></script>
+</head>
+<body>
+  <!-- MENU FIXO NO TOPO: nome, links das seções e bandeiras para trocar de idioma -->
+  <header class="nav"><div class="wrap">
+    <a class="logo" href="#top">Isaque Barbosa</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Menu">☰</button>
+    <nav aria-label="Menu"><ul id="menu"><li><a href="#experiencia">Experience</a></li><li><a href="#formacao">Education</a></li><li><a href="#habilidades">Skills</a></li><li><a href="#projetos">Projects</a></li><li><a href="#esporte">Sports</a></li><li><a href="#contato">Contact</a></li><li class="lang"><a class="bandeira" href="../" hreflang="pt-BR" lang="pt-BR" aria-label="Português (Brasil)" title="Português"><svg viewBox="0 0 28 20" aria-hidden="true"><rect width="28" height="20" fill="#009c3b"/><path d="M14 2.5 25 10 14 17.5 3 10Z" fill="#ffdf00"/><circle cx="14" cy="10" r="4.2" fill="#002776"/></svg></a><a class="bandeira" href="./" hreflang="en" lang="en" aria-label="English (USA)" title="English" aria-current="true"><svg viewBox="0 0 28 20" aria-hidden="true"><rect width="28" height="20" fill="#fff"/><rect y="0.00" width="28" height="1.54" fill="#b22234"/><rect y="3.08" width="28" height="1.54" fill="#b22234"/><rect y="6.15" width="28" height="1.54" fill="#b22234"/><rect y="9.23" width="28" height="1.54" fill="#b22234"/><rect y="12.31" width="28" height="1.54" fill="#b22234"/><rect y="15.38" width="28" height="1.54" fill="#b22234"/><rect y="18.46" width="28" height="1.54" fill="#b22234"/><rect width="12" height="10.8" fill="#3c3b6e"/></svg></a></li></ul></nav>
+  </div></header>
+
+  <!-- CONTEÚDO PRINCIPAL -->
+  <main id="top">
+  <!-- 1) TOPO: título grande, frase de apresentação, botões e retrato -->
+  <section class="hero"><div class="wrap">
+    <div>
+      <h1>Technology.<br>Business.<br><span class="grad">Sports.</span></h1>
+      <p class="lead">Systems analyst, business administration student and college soccer captain. A bridge between technology, management and the game.</p>
+      <div class="acoes">
+        <a class="btn" href="#contato">Contact me</a>
+        <a class="link" href="#experiencia">See experience ›</a>
+        <!-- Para ativar o currículo em PDF, coloque o arquivo em cv/Isaque-Barbosa-CV.pdf e remova os marcadores:
+        <a class="link" href="../cv/Isaque-Barbosa-CV.pdf" download>Download CV ↓</a>
+        -->
+      </div>
+    </div>
+    <!-- Retrato: para trocar a foto, substitua o arquivo img/retrato.jpg -->
+    <div class="retrato"><img src="../img/retrato.jpg" alt="Portrait of Isaque in the Red Hawks uniform" width="772" height="945"></div>
+  </div></section>
+
+  <!-- 2) TRÊS PILARES: texto de apresentação, cartões de Tecnologia/Negócios/Esporte e destaques -->
+  <section style="padding-top:40px"><div class="wrap">
+    <div class="intro"><div><h2 class="rv">Three worlds. One direction.</h2></div><p class="rv">I am <strong>Isaque Barbosa</strong>, a systems analyst by training, a <strong>business administration</strong> student and the captain of the Lake Michigan College soccer team.  I combine <strong>technology, business and sports</strong> to build solutions, improve processes and contribute to the football industry. My path as an international student-athlete taught me leadership, discipline, communication and how to work across cultures. I made the Dean’s List at Lake Michigan College.</p></div>
+    <!-- Cada link <a class="pilar"> é um cartão; o href leva à seção correspondente -->
+    <div class="pilares"><a class="pilar p1 rv" href="#habilidades"><div><h3>Technology</h3><p>Systems analysis and development, databases and AI automation.</p></div><span>See skills ›</span></a><a class="pilar p2 rv" href="#formacao"><div><h3>Business</h3><p>Business administration and management in the U.S., focused on processes and decisions.</p></div><span>See education ›</span></a><a class="pilar p3 rv" href="#esporte"><div><h3>Sports</h3><p>College soccer captain: competition, leadership and discipline every day.</p></div><span>See sports ›</span></a></div>
+    <!-- Destaques rápidos: cada <li> tem um valor em negrito <b> e uma legenda -->
+    <ul class="stats"><li class="rv"><b>Captain</b><span>of the soccer team</span></li><li class="rv"><b>Dean’s List</b><span>Lake Michigan College</span></li><li class="rv"><b>2</b><span>higher-ed programs</span></li><li class="rv"><b>3</b><span>languages</span></li></ul>
+  </div></section>
+
+  <!-- 3) ESPORTE (fundo escuro): texto sobre o futebol, qualidades e galeria de fotos -->
+  <section class="dark" id="esporte"><div class="wrap">
+    <div class="esp-top"><div><p class="kicker rv">Sports</p><h2 class="rv">Inside the game.</h2></div><div class="rv"><p style="font-size:1.1rem">Soccer is part of my identity and of my career plan. I am a student-athlete and <strong>team captain</strong> at Lake Michigan College, playing as a defensive midfielder, full-back and center back. I also competed in cross country. Seeing the game from the inside shapes how I think about its management, organization and technology.</p><ul class="pills"><li>Leadership</li><li>Teamwork</li><li>Communication</li><li>Discipline</li><li>Resilience</li><li>Multicultural teams</li></ul></div></div>
+    <!-- Galeria: três fotos (time, jogo, cross country). Sempre preencha o alt, que descreve a imagem -->
+    <div class="galeria">
+      <figure class="g1 rv"><img src="../img/time.jpg" alt="Lake Michigan College (Red Hawks) soccer team before a match" width="1226" height="817" loading="lazy"></figure>
+      <figure class="g2 rv"><img src="../img/jogo.jpg" alt="Isaque playing for the Red Hawks" width="630" height="945" loading="lazy"></figure>
+      <figure class="g3 rv"><img src="../img/cross.jpg" alt="Isaque at a cross country race for LMC" width="446" height="718" loading="lazy"></figure>
+    </div>
+  </div></section>
+
+  <!-- 4) EXPERIÊNCIA PROFISSIONAL: linha do tempo, da mais recente para a mais antiga -->
+  <section id="experiencia"><div class="wrap"><p class="kicker rv">Experience</p><h2 class="rv">Where I learned to work.</h2>
+    <!-- Cada <li> é uma experiência: ano, empresa, cargo, descrição e etiquetas. Copie um <li> para adicionar outra -->
+    <ul class="linha"><li class="rv"><span class="ano">2026</span><div><h3>Lake Michigan College</h3><p class="role">On-Campus Student Worker · Student Well-Being &amp; Accessibility</p><p>Supported the department’s administrative work, scheduling of counseling appointments, the Red Hawks Refuel Pantry and Snack Shacks, university events and visual materials made in Canva. Also help with game-day operations at college basketball games.</p><ul class="pills"><li>Administration</li><li>Events</li><li>Canva</li><li>Student support</li></ul></div></li><li class="rv"><span class="ano">2023-2025</span><div><h3>Jabil do Brasil</h3><p class="role">IT Intern / Technical Support Assistant</p><p>Hardware and software support, access administration, digital files and databases, user documentation, and web applications built on the Mendix low-code platform, with CSS adjustments and UX/UI improvements.</p><ul class="pills"><li>Technical support</li><li>Mendix</li><li>CSS</li><li>UX/UI</li><li>Databases</li></ul></div></li><li class="rv"><span class="ano">2022</span><div><h3>Transdata</h3><p class="role">Technical Support Assistant</p><p>Technical support for customers across Brazil, device and software troubleshooting, updates to web portals, and training materials and documentation.</p><ul class="pills"><li>Customer support</li><li>Troubleshooting</li><li>Documentation</li></ul></div></li></ul>
+    </div></section>
+
+  <!-- 5) FORMAÇÃO ACADÊMICA (fundo cinza claro) -->
+  <section class="gray" id="formacao"><div class="wrap"><p class="kicker rv">Education</p><h2 class="rv">Two fields. One profile.</h2><p class="rv" style="margin-top:20px;max-width:60ch;color:var(--mut)">My education combines <strong>technology</strong> and <strong>business</strong>. I am finishing an Associate Degree in Business Administration and Management in the U.S., after completing a technologist degree in Systems Analysis and Development in Brazil.</p>
+    
+    <!-- Cada <li class="card"> é um curso: tipo/status, nome e instituição -->
+    <ul class="grade"><li class="card rv"><span class="tipo">Associate degree · In progress · Expected spring 2027</span><h3>Business Administration and Management</h3><p>Lake Michigan College, USA</p></li><li class="card rv"><span class="tipo">Technologist degree · Completed June 2025</span><h3>Systems Analysis and Development</h3><p>Descomplica Faculdade Digital, Brazil</p></li><li class="card rv"><span class="tipo">Technical · 2023-2024</span><h3>Systems Development</h3><p>SENAI, Brazil</p></li><li class="card rv"><span class="tipo">Technical · 2020-2022</span><h3>Internet Informatics / Web Development</h3><p>SENAI, Brazil</p></li></ul>
+    <div class="grade" style="margin-top:20px">
+      <!-- Cartão de idiomas: cada <li> é um idioma e seu nível -->
+      <div class="card card--larga rv"><h3>Languages</h3><ul class="lista"><li>Portuguese<span>Native</span></li><li>English<span>Fluent</span></li><li>Spanish<span>Advanced</span></li></ul></div></div>
+  </div></section>
+
+  <!-- 6) HABILIDADES: cartões agrupados por área; cada <li> dentro de .pills é uma etiqueta -->
+  <section id="habilidades"><div class="wrap"><p class="kicker rv">Skills</p><h2 class="rv">What I work with.</h2>
+    <div class="habil"><div class="card rv"><h3>Programming &amp; development</h3><ul class="pills"><li>JavaScript</li><li>C#</li><li>HTML5</li><li>CSS3</li><li>React Native</li><li>Web development</li></ul></div><div class="card rv"><h3>Databases</h3><ul class="pills"><li>MySQL</li><li>Microsoft SQL Server</li><li>Data organization</li></ul></div><div class="card rv"><h3>AI &amp; automation (early practical experience)</h3><ul class="pills"><li>n8n</li><li>Docker</li><li>AI agents</li><li>Process automation</li><li>Tool integrations</li></ul></div><div class="card rv"><h3>Tools</h3><ul class="pills"><li>Mendix</li><li>Canva</li><li>Figma</li></ul></div><div class="card rv"><h3>Learning next</h3><ul class="pills"><li>Excel</li><li>Power BI</li><li>AI agents</li></ul></div></div>
+    </div></section>
+
+  <!-- 7) PROJETOS (fundo escuro): cada <article class="proj"> é um projeto. Copie para adicionar outro -->
+  <section class="dark" id="projetos"><div class="wrap"><p class="kicker rv">Projects</p><h2 class="rv">What I’m building.</h2><article class="proj rv">
+        <!-- Adicione um print em img/projeto-n8n.jpg e remova os marcadores:
+        <img src="../img/projeto-n8n.jpg" alt="Quick-response customer service and lead capture automation" width="640" height="400" loading="lazy">
+        -->
+        <h3>Quick-response customer service and lead capture automation</h3><p><span class="projeto-status">In development.</span> A flow built with n8n that connects different tools to answer inquiries quickly and capture leads. It has been tested end to end; refinements are still pending.</p><ul class="pills"><li>n8n</li><li>Automation</li><li>Integrations</li></ul><a class="link" href="https://github.com/IsaqueBar21" target="_blank" rel="noopener noreferrer">GitHub profile ›</a></article></div></section>
+
+  <!-- 8) METAS: curto, médio e longo prazo (cada <li class="meta"> é uma etapa) -->
+  <section id="metas"><div class="wrap"><p class="kicker rv">Goals</p><h2 class="rv">Where I’m headed.</h2><ul class="metas"><li class="meta rv"><span class="ano">Short term</span><h3>Finish my degree and build real projects</h3><p class="role">Through spring 2027</p><p>Complete my Associate Degree, deepen AI and automation with n8n and Docker, learn Excel and Power BI, and grow my professional experience in U.S. college sports.</p></li><li class="meta rv"><span class="ano">Mid term</span><h3>Transfer to a four-year university</h3><p class="role">After Lake Michigan College</p><p>Continue in Sports Management or a related field, keep playing at the NAIA or NCAA level depending on eligibility, and gain experience in business analysis and sports operations.</p></li><li class="meta rv"><span class="ano">Long term</span><h3>A career in football</h3><p class="role">Management, technology and data</p><p>Work in club management, sports operations, technology and AI applied to football, and eventually athlete career management and business projects around sports and education.</p></li></ul></div></section>
+  </main>
+
+  <!-- 9) CONTATO E RODAPÉ: e-mail, LinkedIn, GitHub e data da última atualização -->
+  <footer class="dark contato" id="contato"><div class="wrap">
+    <p class="kicker rv">Contact</p>
+    <h2 class="rv" style="margin:0 auto">Let’s talk.</h2>
+    <p class="lead rv">Let’s connect. I am always glad to talk about technology, business and sports.</p>
+    <!-- Botões de contato: altere os links aqui se mudar de e-mail ou perfil -->
+    <div class="acoes rv">
+      <a class="btn" href="mailto:isaquebarbosa@outlook.com">isaquebarbosa@outlook.com</a>
+      <a class="btn alt" href="https://www.linkedin.com/in/isaque-barbosa2021dev/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a class="btn alt" href="https://github.com/IsaqueBar21" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+    <!-- Atualize a data de "última atualização" sempre que mexer no site -->
+    <div class="rodape"><span>Isaque Barbosa. Some rights reserved</span><span>Last updated: November 2026</span></div>
+  </div></footer>
+</body>
+</html>
